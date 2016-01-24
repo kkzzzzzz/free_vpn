@@ -8,7 +8,7 @@ from qrencode import genQRcode
 
 url = 'http://www.ishadowsocks.com/'
 urlopen = urllib.urlopen(url)
-soup = BeautifulSoup(urlopen)
+soup = BeautifulSoup(urlopen,"lxml")
 tag = soup.find_all(name='div',class_=['col-lg-4'],limit=1)[0]
 h4_tags = tag.find_all('h4')
 hostname = h4_tags[0].text.split(':')[1]
