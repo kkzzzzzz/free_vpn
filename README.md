@@ -6,3 +6,7 @@ you should install six qrcode mode
 
     pip install six
     pip install qrcode
+
+
+in dir
+
