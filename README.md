@@ -2,11 +2,16 @@
 shadowsocksX auto get username and  password
 
 
-you should install six qrcode mode
-
-    pip install six
-    pip install qrcode
+you should install same mode  
 
 
-in dir
+there are two files in the project . 
 
+when you run core.py  you can get a QR code
+you can scan it by the shadowsocksX
+
+like this
+
+![](./111.gif)
+
+	
