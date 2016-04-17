@@ -2,7 +2,7 @@
 shadowsocksX auto get username and  password
 
 
-you should install same mode  
+you should install same pip mode  
 
 
 there are two files in the project . 
